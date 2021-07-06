@@ -66,6 +66,10 @@ h2 {
   padding: 15px 50px;
   border-radius: 50px;
   box-shadow: 0px 0px 12px rgb(240, 155, 155);
+  transition: all 1s linear;
+}
+.order-btn:hover {
+  background: linear-gradient(to right, tomato, orange);
 }
 .banner-img {
   text-align: right;
@@ -81,6 +85,7 @@ h2 {
 .about-section {
   background-image: url('images/7.png');
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   position: relative;
   width: 100%;
@@ -88,7 +93,8 @@ h2 {
   margin-bottom: 100px;
 }
 .person-img {
-  width: 100%;
+  width: 60%;
+  height: auto;
   margin: 0;
 }
 
@@ -115,6 +121,11 @@ h2 {
   left: 0;
   top: 50%;
   transform: translate(0, -50%);
+}
+.see-more {
+  text-decoration: none;
+  color: #fb934a;
+  font-weight: 700;
 }
 
 /* recipies */
@@ -156,7 +167,7 @@ p {
   color: black;
 }
 .line {
-  width: 100px;
+  width: 70px;
   height: 4px;
   border-radius: 8px;
   margin-top: 4px;
@@ -167,14 +178,10 @@ p {
   display: flex;
   border-radius: 24px;
   box-shadow: 0px 0px 24px rgb(184, 182, 182);
-  border-top: 0px solid #fff;
-  border-bottom: 0px solid #fff;
-  transition: all 0.5s linear;
-}
-.counter:hover {
   border-top: 2px solid tomato;
   border-bottom: 2px solid orange;
 }
+
 .counter-item {
   width: 30%;
   padding: 40px 20px;
