@@ -216,7 +216,7 @@ h4 {
 .offer-content {
   background-color: #fff;
   width: 50%;
-  height: 63%;
+
   position: absolute;
   left: 50%;
   top: 50%;
@@ -224,14 +224,14 @@ h4 {
   display: flex;
 }
 .offer-img {
-  width: 70%;
+  width: 50%;
 }
 .offer-img img {
   width: 100%;
-  height: auto;
+  width: 100%;
 }
 .offer-text {
-  width: 30%;
+  width: 50%;
   margin-top: 10%;
 }
 .offer-parcent {
