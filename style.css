@@ -194,6 +194,50 @@ h4 {
   margin-top: 0;
 }
 
+/* offer */
+.offer-section {
+  background-image: url('images/burger.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  position: relative;
+}
+.offer-section:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.356);
+  position: absolute;
+}
+.offer-content {
+  background-color: #fff;
+  width: 50%;
+  height: 63%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.offer-img {
+  width: 70%;
+}
+.offer-img img {
+  width: 100%;
+  height: auto;
+}
+.offer-text {
+  width: 30%;
+  margin-top: 10%;
+}
+.offer-parcent {
+  font-size: 30px;
+  color: #575757;
+}
 /* footer */
 footer {
   background-color: rgb(27, 27, 27);
